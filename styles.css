@@ -12,9 +12,11 @@ body {
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
+
   --border-color: #85a482b9;
   --text-decoration-color: #8a9b6fc4;
   --background-color: #e3f6f8;
+
 }
 
 .container {
@@ -42,6 +44,7 @@ body {
   padding: 30px 0;
   max-width: 900px;
   background-color: var(--background-color);
+
 }
 
 .resume__block {
@@ -97,7 +100,6 @@ body {
   gap: 12.8rem;
   margin-bottom: 15px;
 }
-
 .contact-info__block--center {
   justify-content: center;
 }
@@ -133,6 +135,7 @@ body {
   border-radius: 24%;
   width: 120px;
   height: 120px;
+
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
